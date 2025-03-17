@@ -1,0 +1,51 @@
+/*Comentarios...*/
+
+* {
+    font-family: Verdana;
+    text-align: justify;
+    /*padding: 1px;*/
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+    color:  greenyellow;
+}
+
+.img img {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+}
